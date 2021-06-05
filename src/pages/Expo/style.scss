@@ -1,0 +1,12 @@
+$font : 'Montserrat';
+$Main-color : #0D1B37;
+$Sub-color-1 :#153D7D;
+
+
+.ml-client-form-row {
+    margin-top: 79px;
+    .ml-client-form-col-left {
+        background-image: linear-gradient(to top, $Main-color, $Sub-color-1);
+        height: 100vh;
+    }
+}

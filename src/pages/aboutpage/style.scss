@@ -1,0 +1,36 @@
+// Desktop Display
+.about-row{
+    margin-top: 100px !important;
+    .about-col {
+        .about-content {
+            text-align: justify;
+        }
+    }
+}
+
+.about-card-row {
+    margin-bottom: 30px;
+}
+
+
+// Responsive Mobile
+@media only screen and (max-width: 768px) {
+    .my-card {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 1px 1px 5px #7d7d7d;
+        .card-image {
+            width: 100%;
+            border-radius: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-card-row {
+        margin-bottom: 0;
+    }
+    
+    
+}
+

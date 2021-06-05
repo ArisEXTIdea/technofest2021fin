@@ -1,0 +1,23 @@
+$font : 'Montserrat';
+$Main-color : #0D1B37;
+$Sub-color-1 :#153D7D;
+
+.navbar-row {
+
+    .navbar-style {
+        background-color: $Main-color;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 3;
+    }
+
+    .logo-technofest {
+        width: 60px;
+    }
+
+    .dropdown-toggle {
+        cursor: pointer;
+    }
+}

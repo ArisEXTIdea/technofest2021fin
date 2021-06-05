@@ -1,0 +1,20 @@
+$font : 'Montserrat';
+$Main-color : #0D1B37;
+$Sub-color-1 :#153D7D;
+
+.login-admin-container {
+    height: 100vh;
+    .login-admin-row {
+        margin-top: 79px;
+        .login-col-leftside{
+            background-image: linear-gradient(to top, $Main-color, $Sub-color-1);
+            height: 87vh;
+        }
+    }
+}
+
+.img-admin-success {
+    width: 250px;
+    margin: auto;
+}
+

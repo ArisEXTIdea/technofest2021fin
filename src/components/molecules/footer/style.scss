@@ -1,0 +1,21 @@
+$font : 'Montserrat';
+$Main-color : #0D1B37;
+$Sub-color-1 :#153D7D;
+
+.footer-row{
+    background-color: $Main-color;
+    color: #fff !important;
+
+    .footer-link {
+        color: #fff !important;
+    }
+
+    .footer-social {
+        font-size: 25px;
+        color: #fff !important;
+
+        a {
+            color:  #fff;
+        }
+    }
+}

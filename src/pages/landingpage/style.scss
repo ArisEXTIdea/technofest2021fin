@@ -1,0 +1,85 @@
+.landing-container {
+    background-image: url(../../assets/images/Landingbg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+// Header and navbar
+
+.landing-header {
+    background: none !important;
+    color: #fff !important;
+
+    .landing-header-col {
+        background: none !important;
+
+        .landing-header-nav {
+            background: none !important;
+            padding: 0;
+        }
+
+        .logo-technofest {
+            width: 80px;
+        }
+
+        .dropdown-toggle {
+            cursor: pointer;
+        }
+    }
+}
+
+
+// Body Content
+
+.landing-row{
+    color: #fff;
+    font-weight: 500;
+
+    .landing-col{
+
+        .landing-mascot{
+            width: 500px;
+        }
+
+        .landing-btn {
+            border-radius: 30px;
+        }
+    }
+    
+}
+
+// Mobile Responsive 
+
+@media only screen and (max-width: 768px) {
+    .landing-container {
+        background-image: url(../../assets/images/Landingbg.png);
+        background-size: cover;
+        background-position: center;
+        height: 130vh;
+    }
+
+
+    .landing-row{
+        color: #fff;
+        font-weight: 500;
+    
+        .landing-col{
+            margin-top: 100px;
+            text-align: center;
+
+            .landing-header-content{
+                font-size: 35px;
+            }
+    
+            .landing-mascot{
+                width: 500px;
+            }
+    
+            .landing-btn {
+                border-radius: 30px;
+            }
+        }
+        
+    }
+}
