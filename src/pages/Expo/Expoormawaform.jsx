@@ -43,7 +43,7 @@ const Expoormawaform = () => {
                     <h3 className="text-center">Daftar Expo Ormawa TECHNOFEST 2021</h3>
                         <form enctype="application/json">
                         <Input type="text" labelName="Nama Ormawa" placeholder="Masukkan ormawa disini..." name="ormawa_name" onChange={handleChange}/>
-                            <Input type="text" labelName="E-Nama Kaprodi/Pembimbing" placeholder="Masukkan kaprodi/pembimbing disini..." name="kaprodi_name" onChange={handleChange}/>
+                            <Input type="text" labelName="Nama Kaprodi/Pembimbing" placeholder="Masukkan kaprodi/pembimbing disini..." name="kaprodi_name" onChange={handleChange}/>
                             <Input type="text" labelName="Nama Ketua Ormawa" placeholder="Masukkan nama ketua disini..." name="ketua_name" onChange={handleChange}/>
                             <Input type="text" labelName="Nomor Telephone" placeholder="Masukkan no telepon disini..." name="telephone" onChange={handleChange}/>
                             <Button title="Simpan" addStyle="btn-block" type="button" onClick={handleSave}/>

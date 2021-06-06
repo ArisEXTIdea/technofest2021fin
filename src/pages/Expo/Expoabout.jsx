@@ -64,8 +64,8 @@ export class Expoabout extends Component {
                             </li>
                             <li>Konfirmasi Pembayaran : 085781271519(Dicky)</li>
                         </ol>
-                        <Link to="/expo/ormawa/daftar"><Button title="Daftar Sekarang Sebagai Ormawa" addStyle="btn-block"/></Link>
-                        <Link to="/expo/partner/daftar"><Button title="Daftar Sekarang Sebagai Sponsor dan UMKM" addStyle="btn-block mt-3"/></Link>
+                        <Link to="/expo/ormawa/daftar"><Button title="Daftar Sebagai Ormawa" addStyle="btn-block"/></Link>
+                        <Link to="/expo/partner/daftar"><Button title="Daftar Sebagai Sponsor dan UMKM" addStyle="btn-block mt-3"/></Link>
                     </div>
                 </div>
                 <Footer />

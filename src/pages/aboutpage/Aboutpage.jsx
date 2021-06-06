@@ -27,7 +27,7 @@ export class Aboutpage extends Component {
                 <div className="row justify-content-center align-items-center mt-5">
                     <div className="col-10">
                         <h2 className='text-center mb-3'>Ada apa nih di Technofest 2021?</h2>
-                        <p>Ditahun 2021 ini Technofest mengusung tema "Produktifitas dan Kreativitas Mahasiswa di Era New Normal dan tentunya dengan tema tersebut kami menghadirkan banyak kegiatan yang menarik dan seru yang dapat kita nikmati walaupun kita masih berada di masa pandemi.Di Technofest 2021 ini juga kami bekerjasama dengan berbagai pihak seperti UMKM dan Bintang tamu-bintang tamu keren untuk menambah keseruan di Technofest 2021. Penasaran nih apa saja kegiatan di Technofest 2021...?</p>
+                        <p>Ditahun 2021 ini Technofest mengusung tema "Produktifitas dan Kreativitas Mahasiswa di Era New Normal" dan tentunya dengan tema tersebut kami menghadirkan banyak kegiatan yang menarik dan seru yang dapat kita nikmati walaupun kita masih berada di masa pandemi.Di Technofest 2021 ini juga kami bekerjasama dengan berbagai pihak seperti UMKM dan Bintang tamu-bintang tamu keren untuk menambah keseruan di Technofest 2021. Penasaran nih apa saja kegiatan di Technofest 2021...?</p>
                         <p>Ini dia kegiatan seru yang bisa kita nikmati di Technofest 2021...</p>
                     </div>
                     {/* Card Section - this section contain link to register form for each event in technofest 2021 */}
@@ -39,7 +39,7 @@ export class Aboutpage extends Component {
                             <Card cardButtonLink='/band/daftar' cardImg={bandthumb} cardContent="Band Competition" cardHeader="Accoustic Competition" />
                         </div>
                         <div className="col-12 col-md-4">
-                            <Card cardButtonLink='/expo' cardImg={expothumb} cardContent="Expo" cardHeader="Expo FST" />
+                            <Card cardButtonLink='/expo' cardImg={expothumb} cardContent="Expo" cardHeader="Expo Technofest" />
                         </div>
                     </div>
                     <div className="row about-card-row mb-5 justify-content-center align-items-center">

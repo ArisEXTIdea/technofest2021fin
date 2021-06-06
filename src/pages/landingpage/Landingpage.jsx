@@ -45,7 +45,6 @@ const Landingpage = () => {
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link to='/webinar' className="dropdown-item" >Webinar</Link>
                                     <Link to='/expo' className="dropdown-item" >Expo</Link>
-                                    <Link to='/donor-darah' className="dropdown-item" >Donor Darah</Link>
                                 </div>
                             </span>
                             <Link to='/pengumuman'><p className="nav-item nav-link" >Pengumuman</p></Link>

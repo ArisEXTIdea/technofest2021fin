@@ -13,7 +13,6 @@ export class Mobilelegendabout extends Component {
                         <h2 className='text-center'>Mobile Legend Tournament</h2>
                         <h2 className='text-center mb-5'>Season 3</h2>
                         <img src={mlbanner} alt="Mobile Legend Banner" className='img-fluid'/>
-                        <Link to="/mobilelegend/daftar"><Button title="Daftar Sekarang" addStyle="btn-block mt-3"/></Link>
                         <h4 className='mt-5'>Peraturan dan Ketentuan Turnamen:</h4>
                         <h5 className='text-center mt-3'>TimeLine</h5>
                         <ul>
