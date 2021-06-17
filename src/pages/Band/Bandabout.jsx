@@ -33,7 +33,7 @@ export class Bandabout extends Component {
                         </ol>
                         <h5 className='text-center mt-3'>Penilaian</h5>
                         <ol className='mt-3'>
-                            <li>Aransemen</li>
+                            <li>Instrumen</li>
                             <li>Vokal</li>
                             <li>Kreativitas</li>
                         </ol>

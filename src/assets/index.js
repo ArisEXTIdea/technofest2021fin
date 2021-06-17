@@ -7,8 +7,8 @@ import bandthumb from './images/bandthumb.png';
 import webinarthumb from './images/webinarthumb.png';
 import expothumb from './images/expothumb.png';
 import mct from './images/mct.png'
-import mlbanner from './images/mlbanner.png'
-import bandbanner from './images/Bandbanner.png'
+import mlbanner from './images/mlbanera.jpg'
+import bandbanner from './images/akustik.jpg'
 import webinarbanner from './images/webinarbanner.png'
 import expobanner from './images/expobanner.png'
 import pengumumanthumbnail from './images/pengumumanthumbnail.png'

@@ -55,7 +55,8 @@ export class Expoabout extends Component {
                         </ol>
                         <h5 className='text-center mt-3'>Pendaftaran</h5>
                         <ol>
-                            <li>Biaya Pendaftaran :  <b>Rp, 100.000</b></li>
+                            <li>Biaya Pendaftaran Ukuran Stand 4x4:  <b>Rp, 100.000</b></li>
+                            <li>Biaya Pendaftaran Ukuran Stand 4x2:  <b>Rp, 50.000</b></li>
                             <li>Pembayaran : 
                                 <ul>
                                     <li>Rekening : 589401029738531(BRI An ahmad yudi irawan )</li>
