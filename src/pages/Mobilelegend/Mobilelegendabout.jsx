@@ -16,9 +16,9 @@ export class Mobilelegendabout extends Component {
                         <h4 className='mt-5'>Peraturan dan Ketentuan Turnamen:</h4>
                         <h5 className='text-center mt-3'>TimeLine</h5>
                         <ul>
-                            <li>Pendaftaran :  <b>10-28 Juni 2021</b></li>
-                            <li>Technical Meeting : <b>Kamis, 01 Juli 2021</b> </li>
-                            <li>Pelaksanaan Pertandingan : <b>03-04 Juli 2021</b> </li>
+                            <li>Pendaftaran :  <b>1-20 Juli 2021</b></li>
+                            <li>Technical Meeting : <b>Jumat, 23 Juli 2021</b> </li>
+                            <li>Pelaksanaan Pertandingan : <b>25-28 Juli 2021</b> </li>
                         </ul>
                         <h5 className='text-center mt-3'>Ketentuan Umum</h5>
                         <ul>
