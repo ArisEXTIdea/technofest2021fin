@@ -69,6 +69,7 @@ const Mobilelegendform = () => {
                             <Input type="text" labelName="ID Anggota 5" placeholder="Masukkan ID Anggota 5 disini..." name="id_member_5" onChange={handleChange}/>
                             <Input type="text" labelName="Nickname Anggota 5" placeholder="Masukkan Nickname Anggota 5 disini..." name="nickname_member_5" onChange={handleChange}/>
                             <Button title="Simpan" addStyle="btn-block" type="button" onClick={handleSave}/>
+                            <p className='mt-3'><Link to='/mobilelegend' className='lihat'>Lihat Peraturan</Link></p>
                         </form>
                     </div>
                 </div>
