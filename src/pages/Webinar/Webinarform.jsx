@@ -48,7 +48,7 @@ const Webinarform = () => {
                             <Input type="text" labelName="Delegasi(Tulis Perorangan/Mahasiswa jika bukan delegasi)" placeholder="Tulis nama ormawa untuk delegasi, tulis 'perorangan' untuk non-delegasi " name="delegasi" onChange={handleChange}/>
                             <Input type="text" labelName="Nama Perguruan Tinggi/Instansi" placeholder="Tulis nama Perguruan tinggi atau Instansi anda" name="ptinstansi" onChange={handleChange}/>
                             <Input type="text" labelName="Nomor Telephone" placeholder="Masukkan no telepon disini..." name="telephone" onChange={handleChange}/>
-                            <Button title="Simpan" addStyle="btn-block" type="button" onClick={handleSave}/>
+                            <Button title="Daftar" addStyle="btn-block" type="button" onClick={handleSave}/>
                         </form>
                     </div>
                 </div>
