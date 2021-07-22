@@ -45,7 +45,7 @@ const Webinarform = () => {
                         <form enctype="application/json">
                             <Input type="text" labelName="Nama" placeholder="Masukkan nama anda disini..." name="name" onChange={handleChange}/>
                             <Input type="text" labelName="Email" placeholder="Masukkan email anda disini..." name="email" onChange={handleChange}/>
-                            <Input type="text" labelName="Delegasi" placeholder="Tulis nama ormawa untuk delegasi, tulis 'perorangan' untuk non-delegasi " name="delegasi" onChange={handleChange}/>
+                            <Input type="text" labelName="Delegasi(Tulis Perorangan jika bukan delegasi)" placeholder="Tulis nama ormawa untuk delegasi, tulis 'perorangan' untuk non-delegasi " name="delegasi" onChange={handleChange}/>
                             <Input type="text" labelName="Nama Perguruan Tinggi/Instansi" placeholder="Tulis nama Perguruan tinggi atau Instansi anda" name="ptinstansi" onChange={handleChange}/>
                             <Input type="text" labelName="Nomor Telephone" placeholder="Masukkan no telepon disini..." name="telephone" onChange={handleChange}/>
                             <Button title="Simpan" addStyle="btn-block" type="button" onClick={handleSave}/>
