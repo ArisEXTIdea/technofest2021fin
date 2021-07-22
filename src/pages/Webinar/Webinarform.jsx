@@ -43,7 +43,7 @@ const Webinarform = () => {
                     <div className="col-12 col-md-6 p-5">
                     <h3 className="text-center">Daftar Webinar TECHNOFEST 2021</h3>
                         <form enctype="application/json">
-                            <Input type="text" labelName="Nama" placeholder="Masukkan nama anda disini..." name="name" onChange={handleChange}/>
+                            <Input type="text" labelName="Nama(Wajib Nama Lengkap Untuk E-Sertifikat)" placeholder="Masukkan nama anda disini..." name="name" onChange={handleChange}/>
                             <Input type="text" labelName="Email" placeholder="Masukkan email anda disini..." name="email" onChange={handleChange}/>
                             <Input type="text" labelName="Delegasi(Tulis Perorangan/Mahasiswa jika bukan delegasi)" placeholder="Tulis nama ormawa untuk delegasi, tulis 'perorangan' untuk non-delegasi " name="delegasi" onChange={handleChange}/>
                             <Input type="text" labelName="Nama Perguruan Tinggi/Instansi" placeholder="Tulis nama Perguruan tinggi atau Instansi anda" name="ptinstansi" onChange={handleChange}/>
